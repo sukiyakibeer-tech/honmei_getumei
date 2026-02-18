@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>九星気学 年盤・月盤表示</title>
+  <style>
+    body { font-family: sans-serif; }
+    .matrix { margin: 0.5em 0 1em; }
+    .matrix-row { font-family: "Courier New", monospace; }
+  </style>
+</head>
+<body>
+  <h1>九星気学 年盤・月盤表示</h1>
+
+  <div>
+    <h2>生年月日を西暦で入力:</h2>
+    年：<input type="number" id="yearInput" title="年を入力してください"><br>
+    月：<input type="number" id="monthInput" title="月を入力してください"><br>
+    日：<input type="number" id="dayInput" title="日を入力してください">
+  </div>
+
+  <button id="calcButton">計算して表示</button>
+
+  <pre id="output"></pre>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
+
