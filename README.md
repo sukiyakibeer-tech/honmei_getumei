@@ -11,6 +11,7 @@
 
 ## 本命星、月命星算出プロ暗く(JavaScript)
     - 誕生日を入力すると本命星と月命星を出力します。
+    - 運勢の点数一覧では指定した月から12ヶ月分の運勢を表にします。
 
 ### Folder Structure
     - kigaku_birthday.html
